@@ -30,6 +30,7 @@ var courses = allCourses{
 }
 
 func main() {
+
 	e := echo.New()
 
 	e.GET("/courses", func(c echo.Context) error {
